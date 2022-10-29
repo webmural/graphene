@@ -1,0 +1,22 @@
+mark {
+  background: #bae;
+  color: #111;
+}
+
+::selection {
+  background: springgreen;
+  color: indigo;
+}
+
+:root {
+  background: #317;
+  color: #dcdcdc;
+}
+
+:any-link {
+  color: gold;
+}
+
+@media (prefers-contrast: more) {
+  :root { background: #305 }
+}

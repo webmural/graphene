@@ -1,0 +1,22 @@
+mark {
+  background: #317;
+  color: hotpink;
+}
+
+::selection {
+  background: darkorchid;
+  color: seashell;
+}
+
+:root {
+  background: lavender;
+  color: #321;
+}
+
+:any-link {
+  color: #317;
+}
+
+@media (prefers-contrast: more) {
+  :root { background: seashell }
+}
